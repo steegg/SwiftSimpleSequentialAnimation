@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFA5495225E0E0400C66102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA5494225E0E0400C66102 /* AppDelegate.swift */; };
+		AAFA5497225E0E0400C66102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA5496225E0E0400C66102 /* ViewController.swift */; };
+		AAFA549A225E0E0400C66102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFA5498225E0E0400C66102 /* Main.storyboard */; };
+		AAFA549C225E0E0800C66102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFA549B225E0E0800C66102 /* Assets.xcassets */; };
+		AAFA549F225E0E0800C66102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFA549D225E0E0800C66102 /* LaunchScreen.storyboard */; };
+		AAFA54AA225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA54A9225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.swift */; };
+		AAFA54B5225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA54B4225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFA54A6225E0E0800C66102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFA5489225E0E0400C66102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFA5490225E0E0400C66102;
+			remoteInfo = SwiftSimpleSequentialAnimation;
+		};
+		AAFA54B1225E0E0800C66102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFA5489225E0E0400C66102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFA5490225E0E0400C66102;
+			remoteInfo = SwiftSimpleSequentialAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFA5491225E0E0400C66102 /* SwiftSimpleSequentialAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleSequentialAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA5494225E0E0400C66102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFA5496225E0E0400C66102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFA5499225E0E0400C66102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFA549B225E0E0800C66102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFA549E225E0E0800C66102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFA54A0225E0E0800C66102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFA54A5225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSimpleSequentialAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA54A9225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSimpleSequentialAnimationTests.swift; sourceTree = "<group>"; };
+		AAFA54AB225E0E0800C66102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFA54B0225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSimpleSequentialAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA54B4225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSimpleSequentialAnimationUITests.swift; sourceTree = "<group>"; };
+		AAFA54B6225E0E0800C66102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFA548E225E0E0400C66102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA54A2225E0E0800C66102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA54AD225E0E0800C66102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFA5488225E0E0400C66102 = {
+			isa = PBXGroup;
+			children = (
+				AAFA5493225E0E0400C66102 /* SwiftSimpleSequentialAnimation */,
+				AAFA54A8225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests */,
+				AAFA54B3225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests */,
+				AAFA5492225E0E0400C66102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFA5492225E0E0400C66102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA5491225E0E0400C66102 /* SwiftSimpleSequentialAnimation.app */,
+				AAFA54A5225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.xctest */,
+				AAFA54B0225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFA5493225E0E0400C66102 /* SwiftSimpleSequentialAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA5494225E0E0400C66102 /* AppDelegate.swift */,
+				AAFA5496225E0E0400C66102 /* ViewController.swift */,
+				AAFA5498225E0E0400C66102 /* Main.storyboard */,
+				AAFA549B225E0E0800C66102 /* Assets.xcassets */,
+				AAFA549D225E0E0800C66102 /* LaunchScreen.storyboard */,
+				AAFA54A0225E0E0800C66102 /* Info.plist */,
+			);
+			path = SwiftSimpleSequentialAnimation;
+			sourceTree = "<group>";
+		};
+		AAFA54A8225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA54A9225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.swift */,
+				AAFA54AB225E0E0800C66102 /* Info.plist */,
+			);
+			path = SwiftSimpleSequentialAnimationTests;
+			sourceTree = "<group>";
+		};
+		AAFA54B3225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA54B4225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.swift */,
+				AAFA54B6225E0E0800C66102 /* Info.plist */,
+			);
+			path = SwiftSimpleSequentialAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFA5490225E0E0400C66102 /* SwiftSimpleSequentialAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA54B9225E0E0800C66102 /* Build configuration list for PBXNativeTarget "SwiftSimpleSequentialAnimation" */;
+			buildPhases = (
+				AAFA548D225E0E0400C66102 /* Sources */,
+				AAFA548E225E0E0400C66102 /* Frameworks */,
+				AAFA548F225E0E0400C66102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSimpleSequentialAnimation;
+			productName = SwiftSimpleSequentialAnimation;
+			productReference = AAFA5491225E0E0400C66102 /* SwiftSimpleSequentialAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFA54A4225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA54BC225E0E0800C66102 /* Build configuration list for PBXNativeTarget "SwiftSimpleSequentialAnimationTests" */;
+			buildPhases = (
+				AAFA54A1225E0E0800C66102 /* Sources */,
+				AAFA54A2225E0E0800C66102 /* Frameworks */,
+				AAFA54A3225E0E0800C66102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFA54A7225E0E0800C66102 /* PBXTargetDependency */,
+			);
+			name = SwiftSimpleSequentialAnimationTests;
+			productName = SwiftSimpleSequentialAnimationTests;
+			productReference = AAFA54A5225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFA54AF225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA54BF225E0E0800C66102 /* Build configuration list for PBXNativeTarget "SwiftSimpleSequentialAnimationUITests" */;
+			buildPhases = (
+				AAFA54AC225E0E0800C66102 /* Sources */,
+				AAFA54AD225E0E0800C66102 /* Frameworks */,
+				AAFA54AE225E0E0800C66102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFA54B2225E0E0800C66102 /* PBXTargetDependency */,
+			);
+			name = SwiftSimpleSequentialAnimationUITests;
+			productName = SwiftSimpleSequentialAnimationUITests;
+			productReference = AAFA54B0225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFA5489225E0E0400C66102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Steve Greenwood";
+				TargetAttributes = {
+					AAFA5490225E0E0400C66102 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AAFA54A4225E0E0800C66102 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AAFA5490225E0E0400C66102;
+					};
+					AAFA54AF225E0E0800C66102 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AAFA5490225E0E0400C66102;
+					};
+				};
+			};
+			buildConfigurationList = AAFA548C225E0E0400C66102 /* Build configuration list for PBXProject "SwiftSimpleSequentialAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFA5488225E0E0400C66102;
+			productRefGroup = AAFA5492225E0E0400C66102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFA5490225E0E0400C66102 /* SwiftSimpleSequentialAnimation */,
+				AAFA54A4225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests */,
+				AAFA54AF225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFA548F225E0E0400C66102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA549F225E0E0800C66102 /* LaunchScreen.storyboard in Resources */,
+				AAFA549C225E0E0800C66102 /* Assets.xcassets in Resources */,
+				AAFA549A225E0E0400C66102 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA54A3225E0E0800C66102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA54AE225E0E0800C66102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFA548D225E0E0400C66102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA5497225E0E0400C66102 /* ViewController.swift in Sources */,
+				AAFA5495225E0E0400C66102 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA54A1225E0E0800C66102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA54AA225E0E0800C66102 /* SwiftSimpleSequentialAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA54AC225E0E0800C66102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA54B5225E0E0800C66102 /* SwiftSimpleSequentialAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFA54A7225E0E0800C66102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFA5490225E0E0400C66102 /* SwiftSimpleSequentialAnimation */;
+			targetProxy = AAFA54A6225E0E0800C66102 /* PBXContainerItemProxy */;
+		};
+		AAFA54B2225E0E0800C66102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFA5490225E0E0400C66102 /* SwiftSimpleSequentialAnimation */;
+			targetProxy = AAFA54B1225E0E0800C66102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFA5498225E0E0400C66102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFA5499225E0E0400C66102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFA549D225E0E0800C66102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFA549E225E0E0800C66102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFA54B7225E0E0800C66102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFA54B8225E0E0800C66102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFA54BA225E0E0800C66102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSimpleSequentialAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.SwiftSimpleSequentialAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFA54BB225E0E0800C66102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSimpleSequentialAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.SwiftSimpleSequentialAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAFA54BD225E0E0800C66102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSimpleSequentialAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.SwiftSimpleSequentialAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSimpleSequentialAnimation.app/SwiftSimpleSequentialAnimation";
+			};
+			name = Debug;
+		};
+		AAFA54BE225E0E0800C66102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSimpleSequentialAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.SwiftSimpleSequentialAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSimpleSequentialAnimation.app/SwiftSimpleSequentialAnimation";
+			};
+			name = Release;
+		};
+		AAFA54C0225E0E0800C66102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSimpleSequentialAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.SwiftSimpleSequentialAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftSimpleSequentialAnimation;
+			};
+			name = Debug;
+		};
+		AAFA54C1225E0E0800C66102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSimpleSequentialAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxxx.SwiftSimpleSequentialAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftSimpleSequentialAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFA548C225E0E0400C66102 /* Build configuration list for PBXProject "SwiftSimpleSequentialAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA54B7225E0E0800C66102 /* Debug */,
+				AAFA54B8225E0E0800C66102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA54B9225E0E0800C66102 /* Build configuration list for PBXNativeTarget "SwiftSimpleSequentialAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA54BA225E0E0800C66102 /* Debug */,
+				AAFA54BB225E0E0800C66102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA54BC225E0E0800C66102 /* Build configuration list for PBXNativeTarget "SwiftSimpleSequentialAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA54BD225E0E0800C66102 /* Debug */,
+				AAFA54BE225E0E0800C66102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA54BF225E0E0800C66102 /* Build configuration list for PBXNativeTarget "SwiftSimpleSequentialAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA54C0225E0E0800C66102 /* Debug */,
+				AAFA54C1225E0E0800C66102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFA5489225E0E0400C66102 /* Project object */;
+}
